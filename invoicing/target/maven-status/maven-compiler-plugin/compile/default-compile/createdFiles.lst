@@ -1,0 +1,5 @@
+com\yourcompany\invoicing\model\FacturaFormaPago.class
+com\yourcompany\invoicing\model\Factura.class
+com\yourcompany\invoicing\model\Cliente.class
+com\yourcompany\invoicing\run\invoicing.class
+com\yourcompany\invoicing\model\FacturaDetalle.class
