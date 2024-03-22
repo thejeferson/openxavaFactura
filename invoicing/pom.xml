@@ -110,6 +110,15 @@
 							<goal>unpack</goal>
 						</goals>
 						<configuration>
+						
+						<archive>
+                        <manifest>
+                            <!-- Especifica la clase principal aquí -->
+                            <mainClass>com.yourcompany.invoicing.run.invoicing</mainClass>
+                        </manifest>
+                    </archive>
+						
+						
 							<artifactItems>
 								<artifactItem>
 									<groupId>org.openxava</groupId>

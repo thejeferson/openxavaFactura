@@ -1,0 +1,43 @@
+
+    /* verde.css */
+
+@import 'base.css';
+
+:root {
+    --mi-verde-claro: #20bdd8; /* Cambia este valor al verde que prefieras */
+    --mi-verde-oscuro: ##20dbcc; /* Cambia este valor al verde que prefieras */
+    --mi-beis: #F4EAD5;
+    --mi-marron: #C6A49A;
+    --verde-transparente: rgba(46, 204, 113, 0.2); 
+
+    /* Menú de módulos de la izquierda */
+    --modules-list-color: var(--mi-beis);
+    --modules-list-background: linear-gradient(to right, var(--mi-verde-claro), var(--mi-verde-oscuro)); /* Aplicamos un degradado de verde */
+    --modules-list-selected-color: white;
+
+    /* Cabecera del módulo */
+    --module-header-color: white;
+    --module-header-background: var(--mi-verde-claro);
+
+    /* Botonera */
+    --button-bar-button-color: var(--mi-beis);
+    --button-bar-background: var(--mi-verde-oscuro);
+    --list-formats-color: var(--mi-beis);
+    --list-formats-hover-color: white;
+
+    /* Fondos y etiquetas */
+    --background: var(--mi-beis);
+    --color: var(--mi-marron);
+
+    /* Marcos */
+    --frame-background: var(--verde-transparente);
+
+    /* Acciones */
+    --action-color: var(--mi-verde-oscuro);
+    --action-hover-color: var(--mi-verde-claro);
+    --action-hover-background: white;
+    --default-action-button-background: var(--mi-verde-claro);
+
+    /* Editores */
+    --required-editor-border: var(--mi-verde-oscuro);
+}
